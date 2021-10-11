@@ -11,7 +11,7 @@ Formatting | ? | ? | ?
 `Console.WriteLine` | Print function. Prints whatever you insert into it in a new line. | `Console.WriteLine("Hello World")` | ?
 `Console.Write` | Print function. Prints whatever you insert into, on the same line. | `Console.Write("Hello World")` | ?
 Multi-Line Comment | Comments out everything within its scope. | `*/ .... */` | ?
-XML Documentation Comment | ? | ? | ?
+XML Documentation Comment | Generates several lines of comments for easy use of commenting. | ? | ?
 Variable | ? | ? | ?
 Variable Declaration | ? | ? | ?
 Variable Assignment | ? | ? | ?
@@ -36,7 +36,7 @@ Arithmetic Operators | ? | ? | ?
 `-` | easy | ? | ?
 `*` | easy | ? | ?
 `/` | easy | ? | ?
-`%` | ? | ? | ?
+`%` | Modulo, Division and returns what's left. | ? | ?
 `+=` | easy | ? | ?
 `-=` | easy | ? | ?
 `++` | easy | ? | ?
