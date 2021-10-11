@@ -5,7 +5,7 @@ Keyword |                  Summary                   | Sample Code | Mentioned I
 `;`     | Used to separate statements from each other.| `int i = 5; i++; Console.WriteLine(i);` | [Script Execution](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#0-script-execution)
 `//`    | Used for single-line comments              | `float multiplier = 0.01f; // % to float (e.g. 24% = 0.24)` | [Comments](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#single-line-comments)
 Variable Initialization | When a value is assigned to a variable for the first time | `int a = 5;` | [Variables](https://github.com/marczaku/csharp-basics/blob/main/slides/003.3.1-console-basics-1.md#variable-initialization)
-`dotnet new console -o project-name` | ? | ? | ?
+`dotnet new console -o project-name` | Creates new project | ? | ?
 Script Execution Order | ? | ? | ?
 Formatting | ? | ? | ?
 `Console.WriteLine` | Print function. Prints whatever you insert into it in a new line. | `Console.WriteLine("Hello World")` | ?
@@ -45,14 +45,14 @@ Post-Increment `i++` | i+1 | `if(i=0;i<10;i++) {Console.WriteLine("Hello World")
 Pre-Increment `++i` | ? | ? | ?
 `System.Math` | ? | ? | ?
 `static` | ? | ? | ?
-`Math.Max` | ? | ? | ?
-`Math.Min` | ? | ? | ?
-`Math.Sqrt` | ? | ? | ?
+`Math.Max` | Checks which number is max | `Math.Max(5,10)` | ?
+`Math.Min` | Checks which number is min | `Math.Min(5,10)` | ?
+`Math.Sqrt` | Square root | ? | ?
 `Math.Abs` | ? | ? | ?
-`Math.Round` | ? | ? | ?
-`Math.Floor` | ? | ? | ?
-`Math.Ceiling` | ? | ? | ?
-`Math.Clamp` | ? | ? | ?
+`Math.Round` | Rounds the number | `Math.Round(1.34)` = 1 | ?
+`Math.Floor` | Checks the floor of the value | `Math.Floor(1.34)` = 1 | ?
+`Math.Ceiling` | Checks the top number of the value | `Math.Floor(1.34)` = 2 | ?
+`Math.Clamp` | Take a number and checks if it is within its scope | `Math.Clamp(5, 0, 3)` = 3 | ?
 `Math.Pow` | ? | ? | ?
 `string.Length` | ? | ? | ?
 `string.ToUpper` | ? | ? | ?
@@ -80,24 +80,23 @@ Comparison Operators | ? | ? | ?
 `? :` | ? | ? | ?
 Flow Control Statements | ? | ? | ?
 `System.Random` | ? | ? | ?
-pseudo-random | ? | ? | ?
-seed | ? | ? | ?
-`Random.Next(int, int)` | ? | ? | ?
-`Random.Next()` | ? | ? | ?
-`Random.NextDouble()` | ? | ? | ?
-`Random.Next()` | ? | ? | ?
-`while` | ? | ? | ?
+pseudo-random | Random isnt actually random, but appears so. | ? | ?
+seed | You can input a seed into random and the outcome of random will always follow that seed. | `Random random = new random(33221100)` | ?
+`Random.Next(int, int)` | Generates random number between int1 and int2 | ? | ?
+`Random.Next()` | Generates random number | ? | ?
+`Random.NextDouble()` | Generates random number between 0 and 1 | ? | ?
+`while` | Easy | ? | ?
 bool-expression | ? | ? | ?
 `do..while` | ? | ? | ?
 `for` | ? | ? | ?
 iteration statement | ? | ? | ?
-loop body | ? | ? | ?
-loop | ? | ? | ?
-execution | ? | ? | ?
-execution jump | ? | ? | ?
+loop body | Loop body is the part that happens every loop. | ? | ?
+loop | The whole loop, goes around and around and around | ? | ?
+execution | Runs specific code. | ? | ?
+execution jump | Foregoes normal top to bottom approach of execution and jumps to another point and execute thats first. Example in loops. | ? | ?
 `break` | ? | ? | ?
 `continue` | ? | ? | ?
-`Array` | ? | ? | ?
+`Array` | List of variable | int[] array = int[5] | ?
 `int[]` | ? | ? | ?
 Array Initialization | ? | ? | ?
 Array Access for Assignment | ? | ? | ?
