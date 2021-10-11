@@ -8,16 +8,16 @@ Variable Initialization | When a value is assigned to a variable for the first t
 `dotnet new console -o project-name` | ? | ? | ?
 Script Execution Order | ? | ? | ?
 Formatting | ? | ? | ?
-`Console.WriteLine` | ? | ? | ?
-`Console.Write` | ? | ? | ?
-Multi-Line Comment | ? | ? | ?
+`Console.WriteLine` | Print function. Prints whatever you insert into it in a new line. | `Console.WriteLine("Hello World")` | ?
+`Console.Write` | Print function. Prints whatever you insert into, on the same line. | `Console.Write("Hello World")` | ?
+Multi-Line Comment | Comments out everything within its scope. | `*/ .... */` | ?
 XML Documentation Comment | ? | ? | ?
 Variable | ? | ? | ?
 Variable Declaration | ? | ? | ?
 Variable Assignment | ? | ? | ?
 Uninitialized Variable | ? | ? | ?
 `=` (Assignment Operator) | ? | ? | ?
-Scope | ? | ? | ?
+Scope | {whatever is inside this} | `if (cat != dog){whatever is inside this happens}` | ?
 Variable Scope | ? | ? | ?
 `int` | ? | ? | ?
 `float` | ? | ? | ?
@@ -32,16 +32,16 @@ Type Conversion | ? | ? | ?
 `Convert.ToInt32` | ? | ? | ?
 Operators | ? | ? | ?
 Arithmetic Operators | ? | ? | ?
-`+` | ? | ? | ?
-`-` | ? | ? | ?
-`*` | ? | ? | ?
-`/` | ? | ? | ?
+`+` | easy | ? | ?
+`-` | easy | ? | ?
+`*` | easy | ? | ?
+`/` | easy | ? | ?
 `%` | ? | ? | ?
-`+=` | ? | ? | ?
-`-=` | ? | ? | ?
-`++` | ? | ? | ?
-`--` | ? | ? | ?
-Post-Increment `i++` | ? | ? | ?
+`+=` | easy | ? | ?
+`-=` | easy | ? | ?
+`++` | easy | ? | ?
+`--` | easy | ? | ?
+Post-Increment `i++` | i+1 | `if(i=0;i<10;i++) {Console.WriteLine("Hello World")}` | ?
 Pre-Increment `++i` | ? | ? | ?
 `System.Math` | ? | ? | ?
 `static` | ? | ? | ?
@@ -65,19 +65,18 @@ Pre-Increment `++i` | ? | ? | ?
 `string.Replace` | ? | ? | ?
 immutable | ? | ? | ?
 Logical Operators | ? | ? | ?
-`!` | ? | ? | ?
-`&&` | ? | ? | ?
-`||` | ? | ? | ?
+`!` | Not | `if(a != b)` | ?
+`&&` | And | `if(a == b && b == 5)` | ?
 Comparison Operators | ? | ? | ?
 `>` | ? | ? | ?
-`==` | ? | ? | ?
-`!=` | ? | ? | ?
-`||` | ? | ? | ?
-`>=` | ? | ? | ?
-`<=` | ? | ? | ?
-`if` | ? | ? | ?
-`else` | ? | ? | ?
-`else if` | ? | ? | ?
+`==` | Equal to | `if(a==b)` | ?
+`!=` | Not equal to | `if(a!=b)` | ?
+`||` | Or | `if(a == b || a == c)` | ?
+`>=` | More or equal to | `if(a >= b)` | ?
+`<=` | Less or equal to | `if(a <= b)` | ?
+`if` | Easy | ? | ?
+`else` | Easy | ? | ?
+`else if` | Easy | ? | ?
 `? :` | ? | ? | ?
 Flow Control Statements | ? | ? | ?
 `System.Random` | ? | ? | ?
