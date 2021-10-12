@@ -63,7 +63,7 @@ Pre-Increment `++i` | ? | ? | ?
 `string.SubString(int)` | ? | ? | ?
 `string.Substring(int, int)` | ? | ? | ?
 `string.Replace` | ? | ? | ?
-immutable | ? | ? | ?
+immutable | Cannot be changed | ? | ?
 Logical Operators | ? | ? | ?
 `!` | Not | `if(a != b)` | ?
 `&&` | And | `if(a == b && b == 5)` | ?
